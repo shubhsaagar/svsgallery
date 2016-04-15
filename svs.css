@@ -1,0 +1,16 @@
+body{background: #fff;}
+figure{box-shadow: 0px 1px 1px #999;border: 1px solid #f1f1f1;position: absolute;}
+.gallery{margin-bottom: 200px;width: 90%;position: absolute;top:100px;}
+.gallery img{position: absolute;box-sizing: border-box;box-shadow: 0px 2px 6px rgba(0,0,0,0.2);}
+#lightBox .content{position: fixed;width: 100%;height: 100%;background: rgba(0,0,0,0.8);}
+#lightBox{position: fixed;top:0;left: 0;}
+#lightBox .content img{position: absolute;}
+#lightBox span{position: absolute;color: #fff;}
+.closeBut{position: absolute;}
+.nextarrow,.prevarrow{position: absolute;top:300px;}
+.prevarrow{left: 0;}
+.nextarrow{left: 300px;}
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" height="100%">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>sagar</title>
+        <link href="svs.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+          <header class="main-header">
+           <img style="display:none;" class="spinner" src="flickr.gif" alt="loader"/>
+            <a class="next btn btn-default" href="#">Load more</a> </header>
+          <div class="gallery"></div>
+        </div>
+        <script src="jquery-1.12.0.min.js"></script>
+        <script src="svs.js"></script>
+        <script>
+            jQuery(document).ready(function(){
+               $(".gallery").svsgallery({row:4,margin:30,outerpadding:10,}); 
+            });
+        </script>
+    </body>
+</html>    
